@@ -1,0 +1,11 @@
+framework module IdentificationFlow {
+  umbrella header "IdentificationFlow.h"
+
+  export *
+  module * { export * }
+}
+
+module IdentificationFlow.Swift {
+    header "IdentificationFlow-Swift.h"
+    requires objc
+}
